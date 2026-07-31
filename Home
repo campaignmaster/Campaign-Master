@@ -1,0 +1,81 @@
+‎<!DOCTYPE html>
+‎<html lang="en">
+‎<head>
+‎    <meta charset="UTF-8">
+‎    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎    <title>ShopSmart - Single Product</title>
+‎</head>
+‎
+‎<body>
+‎
+‎    <h1 align="center">🛒 ShopSmart</h1>
+‎    <hr>
+‎
+‎    <h2 align="center">Featured Product</h2>
+‎
+‎    <table align="center" border="1" cellpadding="15" cellspacing="0">
+‎
+‎        <tr>
+‎            <td colspan="2" align="center">
+‎                <img src="text=Wireless+Headphone"
+‎                     alt="Headphone"
+‎                     width="300">
+‎            </td>
+‎        </tr>
+‎
+‎        <tr>
+‎            <td><b>Product Name</b></td>
+‎            <td>Wireless Bluetooth Headphone</td>
+‎        </tr>
+‎
+‎        <tr>
+‎            <td><b>Brand</b></td>
+‎            <td>ShopSmart</td>
+‎        </tr>
+‎
+‎        <tr>
+‎            <td><b>Price</b></td>
+‎            <td>$49</td>
+‎        </tr>
+‎
+‎        <tr>
+‎            <td><b>Description</b></td>
+‎            <td>
+‎                High-quality wireless headphone with
+‎                noise cancellation, long battery life,
+‎                and crystal-clear sound.
+‎            </td>
+‎        </tr>
+‎
+‎        <tr>
+‎            <td colspan="2" align="center">
+‎
+‎                <button>
+‎                    View Product
+‎                </button>
+‎
+‎                &nbsp;&nbsp;
+‎
+‎                <button>
+‎                    Add To Cart
+‎                </button>
+‎
+‎            </td>
+‎        </tr>
+‎
+‎    </table>
+‎
+‎    <br>
+‎
+‎    <h3 align="center">
+‎        Shopping Cart : 0 Item
+‎    </h3>
+‎
+‎    <hr>
+‎
+‎    <p align="center">
+‎        © 2026 ShopSmart. All Rights Reserved.
+‎    </p>
+‎
+‎</body>
+‎</html>
