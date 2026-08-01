@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSmart - Practice Store</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="part2a.css">
+    <link rel="stylesheet" href="part2b.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <h1>🛒 ShopSmart</h1>
+
+    <p>Single Product E-commerce Practice Website</p>
+
+    <hr>
+
+</header>
+
+<!-- ================= PRODUCT SECTION ================= -->
+
+<section id="product-section">
+
+    <h2>Featured Product</h2>
+
+    <img src="images/headphone.jpg"
+         alt="Wireless Headphone"
+         width="300">
+
+    <h3>Wireless Bluetooth Headphone</h3>
+
+    <h2>$49</h2>
+
+    <p>
+
+        High quality wireless headphone with
+        noise cancellation and long battery life.
+
+    </p>
+
+    <button id="viewBtn">
+
+        View Product
+
+    </button>
+
+</section>
+
+<hr>
+
+<!-- ================= PRODUCT DETAILS ================= -->
+
+<section id="details-section" style="display:none;">
+
+    <h2>Product Details</h2>
+
+    <img src="images/headphone.jpg"
+         width="250">
+
+    <p>
+
+        Bluetooth Version : 5.3
+
+    </p>
+
+    <p>
+
+        Battery Backup : 30 Hours
+
+    </p>
+
+    <p>
+
+        Color : Black
+
+    </p>
+
+    <p>
+
+        Warranty : 1 Year
+
+    </p>
+
+    <button id="cartBtn">
+
+        Add To Cart
+
+    </button>
+
+</section>
+
+<hr>
+
+<!-- ================= CART ================= -->
+
+<section id="cart-section" style="display:none;">
+
+    <h2>Your Cart</h2>
+
+    <p>
+
+        Product :
+        Wireless Bluetooth Headphone
+
+    </p>
+
+    <p>
+
+        Quantity : 1
+
+    </p>
+
+    <p>
+
+        Total Price : $49
+
+    </p>
+
+    <button id="checkoutBtn">
+
+        Checkout
+
+    </button>
+
+</section>
+
+<hr>
+
+<!-- ================= CHECKOUT ================= -->
+
+<section id="checkout-section" style="display:none;">
+
+<h2>Customer Details</h2>
+
+<form>
+
+<label>
+
+First Name
+
+</label>
+
+<br>
+
+<input
+type="text"
+id="fname">
+
+<br><br>
+
+<label>
+
+Last Name
+
+</label>
+
+<br>
+
+<input
+type="text"
+id="lname">
+
+<br><br>
+
+<label>
+
+Email
+
+</label>
+
+<br>
+
+<input
+type="email"
+id="email">
+
+<br><br>
+
+<label>
+
+Phone Number
+
+</label>
+
+<br>
+
+<input
+type="tel"
+id="phone">
+
+<br><br>
+
+<label>
+
+Gender
+
+</label>
+
+<br>
+
+<input
+type="radio"
+name="gender">
+
+Male
+
+<input
+type="radio"
+name="gender">
+
+Female
+
+<br><br>
+
+<label>
+
+Country
+
+</label>
+
+<br>
+
+<input
+type="text"
+id="country">
+
+<br><br>
+
+<label>
+
+State
+
+</label>
+
+<br>
+
+<input
+type="text"
+id="state">
+
+<br><br>
+
+<label>
+
+Address
+
+</label>
+
+<br>
+
+<textarea
+id="address"
+rows="5"
+cols="40">
+
+</textarea>
+
+<br><br>
+
+<button
+type="button"
+id="purchaseBtn">
+
+Purchase
+
+</button>
+
+</form>
+
+</section>
+
+<hr>
+
+<!-- ================= SUCCESS ================= -->
+
+<section
+id="success-section"
+style="display:none;">
+
+<h2>
+
+✅ Purchase Successful
+
+</h2>
+
+<p>
+
+Thank you for shopping with us.
+
+</p>
+
+</section>
+
+<footer>
+
+<hr>
+
+<p>
+
+© 2026 ShopSmart
+
+</p>
+
+</footer>
+
+<!-- JavaScript File -->
+
+<script src="script.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
