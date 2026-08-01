@@ -23,6 +23,14 @@ const successSection = document.getElementById("success-section");
 
 viewBtn.addEventListener("click", function () {
 
+    window.dataLayer = window.dataLayer || [];
+
+dataLayer.push({
+    event: "view_product",
+    product_name: "Wireless Bluetooth Headphone",
+    product_price: 49
+});
+
     productSection.style.display = "none";
 
     detailsSection.style.display = "block";
